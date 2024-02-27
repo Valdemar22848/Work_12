@@ -12,7 +12,7 @@ int main()
 	printf("Enter x: ");
 	scanf("%d", &x);
 
-	y = sqrt(pow(2, x));
+	y = (sqrt(pow(2, x))) / 2;
 
 	printf("Results: %2.f", y);
 
